@@ -18,10 +18,12 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/arrow/overlay/common
 
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/arrow/overlay/themes/ArrowIcons
+    vendor/arrow/overlay/themes/ArrowIcons \
+    vendor/arrow/overlay-norro
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    vendor/arrow/overlay/common
+    vendor/arrow/overlay/common \
+    vendor/arrow/overlay-norro
 
 PRODUCT_PACKAGES += \
     NetworkStackOverlay
