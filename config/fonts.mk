@@ -50,7 +50,13 @@ PRODUCT_COPY_FILES += \
     vendor/arrow/fonts/OnePlusSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-MediumItalic.ttf \
     vendor/arrow/fonts/OnePlusSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Regular.ttf \
     vendor/arrow/fonts/OnePlusSans-Thin.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Thin.ttf \
-    vendor/arrow/fonts/OnePlusSans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-ThinItalic.ttf
+    vendor/arrow/fonts/OnePlusSans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-ThinItalic.ttf \
+    vendor/arrow/fonts/FluidSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Bold.ttf \
+    vendor/arrow/fonts/FluidSans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-BoldItalic.ttf \
+    vendor/arrow/fonts/FluidSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Italic.ttf \
+    vendor/arrow/fonts/FluidSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Medium.ttf \
+    vendor/arrow/fonts/FluidSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-MediumItalic.ttf \
+    vendor/arrow/fonts/FluidSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/FluidSans-Regular.ttf
 
 PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
@@ -64,4 +70,5 @@ PRODUCT_PACKAGES += \
     FontUrbanistOverlay \
     FontUbuntuOverlay \
     FontHarmonySansOverlay \
-    FontOnePlusOverlay
+    FontOnePlusOverlay \
+    FontFluidSansOverlay
