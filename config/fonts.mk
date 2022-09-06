@@ -23,7 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/arrow/fonts/GoogleSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Italic.ttf \
     vendor/arrow/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
     vendor/arrow/fonts/Inter-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-VF.ttf \
-    vendor/arrow/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf
+    vendor/arrow/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf \
+    vendor/arrow/fonts/Manrope-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Manrope-VF.ttf \
+    vendor/arrow/fonts/Urbanist-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Urbanist-VF.ttf
+
 
 PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
@@ -32,4 +35,6 @@ PRODUCT_PACKAGES += \
     FontGoogleSansLatoOverlay \
     FontInterOverlay \
     FontOppoSansOverlay \
-    FontRubikRubikOverlay
+    FontRubikRubikOverlay \
+    FontManropeOverlay \
+    FontUrbanistOverlay \
