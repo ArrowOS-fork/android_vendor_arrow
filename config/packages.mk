@@ -51,6 +51,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # Repainter integration
 PRODUCT_PACKAGES += \
     RepainterServicePriv
