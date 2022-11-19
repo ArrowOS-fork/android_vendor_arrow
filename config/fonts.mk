@@ -25,7 +25,8 @@ PRODUCT_COPY_FILES += \
     vendor/arrow/fonts/Inter-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-VF.ttf \
     vendor/arrow/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf \
     vendor/arrow/fonts/Manrope-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Manrope-VF.ttf \
-    vendor/arrow/fonts/Urbanist-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Urbanist-VF.ttf
+    vendor/arrow/fonts/Urbanist-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Urbanist-VF.ttf \
+    vendor/arrow/fonts/Ubuntu.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu.ttf
 
 
 PRODUCT_PACKAGES += \
@@ -38,3 +39,4 @@ PRODUCT_PACKAGES += \
     FontRubikRubikOverlay \
     FontManropeOverlay \
     FontUrbanistOverlay \
+    FontUbuntuOverlay

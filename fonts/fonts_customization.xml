@@ -393,4 +393,9 @@
     </font>
   </family>
   <alias name="urbanist-medium" to="urbanist" weight="600" />
+
+    <family customizationType="new-named-family" name="ubuntu">
+        <font weight="400" style="normal">Ubuntu.ttf</font>
+    </family>
+    <alias name="ubuntu-regular" to="ubuntu" weight="400" />
 </fonts-modification>
