@@ -26,8 +26,19 @@ PRODUCT_COPY_FILES += \
     vendor/arrow/fonts/OppoSans-En-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OppoSans-En-Regular.ttf \
     vendor/arrow/fonts/Manrope-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Manrope-VF.ttf \
     vendor/arrow/fonts/Urbanist-VF.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Urbanist-VF.ttf \
-    vendor/arrow/fonts/Ubuntu.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu.ttf
-
+    vendor/arrow/fonts/Ubuntu.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Ubuntu.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-Black.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Black.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-BlackItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-BlackItalic.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Bold.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-BoldItalic.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Italic.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Light.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-LightItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-LightItalic.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Medium.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-MediumItalic.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Regular.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-Thin.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Thin.ttf \
+    vendor/arrow/fonts/HarmonyOS-Sans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-ThinItalic.ttf
 
 PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
@@ -39,4 +50,5 @@ PRODUCT_PACKAGES += \
     FontRubikRubikOverlay \
     FontManropeOverlay \
     FontUrbanistOverlay \
-    FontUbuntuOverlay
+    FontUbuntuOverlay \
+    FontHarmonySansOverlay
