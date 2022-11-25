@@ -38,7 +38,19 @@ PRODUCT_COPY_FILES += \
     vendor/arrow/fonts/HarmonyOS-Sans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-MediumItalic.ttf \
     vendor/arrow/fonts/HarmonyOS-Sans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Regular.ttf \
     vendor/arrow/fonts/HarmonyOS-Sans-Thin.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-Thin.ttf \
-    vendor/arrow/fonts/HarmonyOS-Sans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-ThinItalic.ttf
+    vendor/arrow/fonts/HarmonyOS-Sans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/HarmonyOS-Sans-ThinItalic.ttf \
+    vendor/arrow/fonts/OnePlusSans-Black.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Black.ttf \
+    vendor/arrow/fonts/OnePlusSans-BlackItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-BlackItalic.ttf \
+    vendor/arrow/fonts/OnePlusSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Bold.ttf \
+    vendor/arrow/fonts/OnePlusSans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-BoldItalic.ttf \
+    vendor/arrow/fonts/OnePlusSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Italic.ttf \
+    vendor/arrow/fonts/OnePlusSans-Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Light.ttf \
+    vendor/arrow/fonts/OnePlusSans-LightItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-LightItalic.ttf \
+    vendor/arrow/fonts/OnePlusSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Medium.ttf \
+    vendor/arrow/fonts/OnePlusSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-MediumItalic.ttf \
+    vendor/arrow/fonts/OnePlusSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Regular.ttf \
+    vendor/arrow/fonts/OnePlusSans-Thin.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-Thin.ttf \
+    vendor/arrow/fonts/OnePlusSans-ThinItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/OnePlusSans-ThinItalic.ttf
 
 PRODUCT_PACKAGES += \
     FontArbutusSourceOverlay \
@@ -51,4 +63,5 @@ PRODUCT_PACKAGES += \
     FontManropeOverlay \
     FontUrbanistOverlay \
     FontUbuntuOverlay \
-    FontHarmonySansOverlay
+    FontHarmonySansOverlay \
+    FontOnePlusOverlay
