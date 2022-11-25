@@ -47,10 +47,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NavigationBarNoHintOverlay
 
-# Themes
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
-
 # GameSpace
 PRODUCT_PACKAGES += \
     GameSpace
