@@ -14,7 +14,7 @@
 # limitations under the License.
 
 ARROW_MOD_VERSION = v13.0
-ARROW_BUILD_TYPE := UNOFFICIAL
+ARROW_BUILD_TYPE := FORK
 ARROW_BUILD_ZIP_TYPE := VANILLA
 
 ifeq ($(ARROW_BETA),true)
@@ -32,7 +32,7 @@ ifeq ($(ARROW_OFFICIAL), true)
    LIST = $(shell cat infrastructure/devices/arrow.devices | awk '$$1 != "#" { print $$2 }')
     ifeq ($(filter $(CURRENT_DEVICE), $(LIST)), $(CURRENT_DEVICE))
       IS_OFFICIAL=true
-      ARROW_BUILD_TYPE := OFFICIAL
+      ARROW_BUILD_TYPE := FORK
 
 PRODUCT_PACKAGES += \
     Updater
@@ -51,7 +51,7 @@ ifeq ($(ARROW_COMMUNITY), true)
       ARROW_BUILD_TYPE := COMMUNITY
     endif
     ifneq ($(IS_COMMUNITY), true)
-       ARROW_BUILD_TYPE := UNOFFICIAL
+       ARROW_BUILD_TYPE := FORK
        $(error This isn't a community device "$(CURRENT_DEVICE)")
     endif
 endif
