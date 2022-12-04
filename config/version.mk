@@ -68,3 +68,7 @@ ARROW_DISPLAY_VERSION := Arrow-$(ARROW_MOD_VERSION)-$(ARROW_BUILD_TYPE)
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.arrow.display.version=$(ARROW_DISPLAY_VERSION)
+
+# additional arrow props
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.arrow.maintainer=$(ARROW_MAINTAINER)
